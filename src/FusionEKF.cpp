@@ -49,11 +49,10 @@ FusionEKF::FusionEKF() {
             0, 0, 0, 1;
     ekf_.Q_ = MatrixXd(4, 4);
 
-    // Optimised noise parameters
-    noise_px_ = 9;
-    noise_py_ = 9;
-    noise_vx_ = 100;
-    noise_vy_ = 100;
+    noise_px_ = 6;
+    noise_py_ = 6;
+    noise_vx_ = 98;
+    noise_vy_ = 98;
 
 
 }
